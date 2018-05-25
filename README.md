@@ -1,12 +1,7 @@
 # React Sortable Tree
 
-[![NPM](https://nodei.co/npm/react-sortable-tree.png)](https://npmjs.org/package/react-sortable-tree) [![Build Status](https://travis-ci.org/frontend-collective/react-sortable-tree.svg?branch=master)](https://travis-ci.org/frontend-collective/react-sortable-tree) [![Coverage Status](https://coveralls.io/repos/github/frontend-collective/react-sortable-tree/badge.svg?branch=master)](https://coveralls.io/github/frontend-collective/react-sortable-tree?branch=master)
+THIS IS A FORK FOR MY OWN USE CASES, PLEASE REFER TO THE ORIGINAL REPO FOR MOST UPDATED VERSION. 
 
-[![tree200](https://cloud.githubusercontent.com/assets/4413963/18860410/26f64de8-84b8-11e6-9284-350308eed30a.png)](https://frontend-collective.github.io/react-sortable-tree/)
-
-### [Demo](https://frontend-collective.github.io/react-sortable-tree/)
-
-[![demo](https://cloud.githubusercontent.com/assets/4413963/19334888/2be8261c-913a-11e6-9508-4b347ae114b4.gif)](https://frontend-collective.github.io/react-sortable-tree/)
 
 ## Usage
 

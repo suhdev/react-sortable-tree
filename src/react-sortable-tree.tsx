@@ -6,7 +6,6 @@ import withScrolling, {
   createVerticalStrength,
   createHorizontalStrength,
 } from 'react-dnd-scrollzone';
-import 'react-virtualized/styles.css';
 import TreeNode from './tree-node';
 import NodeRendererDefault from './node-renderer-default';
 import TreePlaceholder from './tree-placeholder';
@@ -31,7 +30,6 @@ import {
 } from './utils/default-handlers';
 import DndManager from './utils/dnd-manager';
 import classnames from './utils/classnames';
-import './react-sortable-tree.css';
 
 let treeIdCounter = 1;
 

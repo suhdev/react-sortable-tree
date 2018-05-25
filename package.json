@@ -1,7 +1,7 @@
 {
-  "name": "react-sortable-tree",
+  "name": "react-sortable-tree-fuse-box",
   "version": "2.1.2",
-  "description": "Drag-and-drop sortable component for nested data and hierarchies",
+  "description": "Drag-and-drop sortable component for nested data and hierarchies (this is a fork for anyone wants to compile with fuse-box)",
   "scripts": {
     "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
     "build:demo": "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail && npm run build-storybook",
@@ -10,8 +10,6 @@
     "start": "cross-env NODE_ENV=development TARGET=development webpack-dev-server --inline --hot",
     "lint": "eslint src examples",
     "prettier": "prettier --single-quote --trailing-comma es5 --write \"{src,examples}/**/*.{js,css,md}\"",
-    "prepublishOnly": "npm run lint && npm run test && npm run build",
-    "release": "standard-version",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "deploy": "npm run build:demo && gh-pages -d build",
