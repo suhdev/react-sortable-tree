@@ -1,6 +1,6 @@
 {
   "name": "react-sortable-tree-fuse-box",
-  "version": "2.1.2",
+  "version": "2.1.4",
   "description": "Drag-and-drop sortable component for nested data and hierarchies (this is a fork for anyone wants to compile with fuse-box)",
   "scripts": {
     "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
@@ -16,7 +16,7 @@
     "storybook": "cross-env TARGET=development start-storybook -p ${PORT:-3001} -h 0.0.0.0",
     "build-storybook": "cross-env NODE_ENV=production build-storybook -o build/storybook"
   },
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "files": [
     "dist",
     "style.css",
